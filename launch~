@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /pentest/DDoS/torshammer/
+exec kde-terminal -x sh -c './torshammer.py; exec bash'
